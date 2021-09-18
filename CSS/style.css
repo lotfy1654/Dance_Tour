@@ -1,0 +1,523 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.container{
+    width: 1085px;
+    margin: auto;
+}
+
+
+
+/* Start Nav*/
+nav{
+    background-color: #303030;
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    /* position: relative; */
+    overflow: hidden;
+}
+nav .text{
+  text-align: center;  
+  padding-right: 37%; 
+}
+
+nav .text ul{
+    list-style: none;
+    display: inline;
+    float: right;
+    margin-top: 10px;
+
+}
+nav .text ul li{
+    float: left;
+    padding: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav .text ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .text ul li a:hover{
+    color: #e8631c;
+}
+
+nav .image img{
+    padding: 20px 70px 0;
+    position: absolute;
+}
+
+/* End Nav*/
+
+/* Start Header */
+
+header .slider{
+    background-image: url(../image/01.png);
+    background-size: cover;
+    height: 600px;
+    width: 1085px;
+}
+
+header .slider .intro{
+    float: left;
+    color: #fff;
+    padding-top: 20%;
+}
+
+header .slider .intro h2{
+    padding: 30px 0 0 16%;
+    font-size: 80px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    /* position: relative; */
+}
+
+header .slider .intro p{
+    line-height: 1.7;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 50px;
+    width: 27%;
+}
+
+header .slider .intro button{
+    background: #e8631c;
+    border: 3px solid #e8631c ;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+    margin: 60% 0 0 50px;
+}
+
+/* End Header */
+
+/* Start Tour */
+.tour{
+    background-color:#e8631c ;
+    color: #fff;
+    overflow: hidden;
+}
+
+.tour .head h2{
+    padding: 15px 0 0 0;
+    text-align: center;
+    font-size: 80px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.tour .head p{
+    line-height: 1.7;
+    font-size: 20px;
+    padding: 15px 0 0 18%;
+    width: 78%;
+    text-align: center;
+
+}
+
+.tour .tourimg{
+    overflow: hidden;
+    padding-bottom: 65px;
+}
+.tour .tourimg > div{
+    float: left;
+    width: 33.333333%;
+    padding-bottom: 0;
+}
+
+.tour .tourimg > div img{
+    width: 92%;
+    margin-top: 10px;
+    padding: 3px;
+    border: 1px solid #e8631c;
+    box-shadow: 7px -3px 10px #303030 ;
+    background: none;
+}
+
+.tour .tourimg div .text{
+    text-align: center;
+    height: 130px;
+    margin: 0 40px 7px 20px;
+    background-color: #303030;
+    padding: 5px;
+}
+
+.tour .tourimg div .text h2{text-transform: uppercase;}
+
+.tour .tourimg div .text p{padding: 0 3px 0px 4px;}
+
+/* End Tour */
+
+/* Start Pricing */
+
+.pricing{
+    background-color:#303030 ;
+    color: #fff;
+    overflow: hidden;
+}
+
+.pricing .pricing-text h2{
+    padding: 15px 0 0 0;
+    text-align: center;
+    font-size: 80px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.pricing .pricing-text p{
+    line-height: 1.7;
+    font-size: 20px;
+    padding: 15px 0 0 18%;
+    width: 78%;
+    text-align: center;
+
+}
+
+.pricing .pricing-img{
+    overflow: hidden;
+    padding-bottom: 65px;
+}
+.pricing .pricing-img > div{
+    float: left;
+    width: 25%;
+    padding-bottom: 0;
+}
+
+.pricing .pricing-img > div img{
+    width: 40%;
+    padding: 3px;
+    margin:40px 83px 0;
+    background: none;
+}
+
+.pricing .pricing-img .pricing-info {
+    height: 370px;
+    background-color: #e8631c;
+    padding-right: 10px;
+    margin: 0 45px 0 45px;
+}
+
+.pricing .pricing-img div .text{
+    text-align: center;
+    height: 130px;
+    margin:  0;
+    padding: 5px;
+}
+
+.pricing .pricing-img div .text p{
+    padding: 0 3px 0px 4px;
+    margin-bottom: 30px;
+
+}
+
+.pricing .pricing-img div .text span{
+    background-color: #303030;
+    font-weight: bold;
+    padding: 15px 70px;
+    margin: 10px 0;
+}
+
+
+/* End Pricing */
+
+/* Start Amazing Dance */
+.am-dance{
+    background-color:#fff;
+    height: 753px;
+}
+.am-dance .dance .dance-img{
+    width: 50%;
+    float: left;
+    background-color: #fff;
+}
+.am-dance .dance .dance-text{
+    float: right;
+    background-color: #e8631c;
+    height: 753px;
+    width: 50%;
+    color: #fff;
+    position: relative;
+}
+
+.am-dance .dance .dance-text div h2{
+    margin: 35% 45px 0 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.am-dance .dance .dance-text div p{
+    line-height: 1.5;
+    margin: 21px 2px 0 62px;
+    font-size: 20px
+}
+
+.am-dance .dance .dance-text div a{
+    background-color: #303030;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 60px;
+    font-weight: bold;
+}
+
+/* End Amazing Dance */
+
+/* Start Best Dance */
+
+.be-dance{
+    background-color:#fff;
+    height: 753px;
+}
+.be-dance .dance .dance-img{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.be-dance .dance .dance-text{
+    float: left;
+    background-color: #e8631c;
+    height: 743px;
+    width: 50%;
+    color: #fff;
+    position: relative;
+    margin: -4px 0 0 0px;
+}
+
+.be-dance .dance .dance-text div h2{
+    margin: 35% 27% 0 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.be-dance .dance .dance-text div p{
+    line-height: 1.5;
+    margin: 21px 2px 0 62px;
+    font-size: 20px
+}
+
+.be-dance .dance .dance-text div a{
+    background-color: #303030;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 60px;
+    font-weight: bold;
+}
+
+/* End Best Dance */
+
+/* Start Our Statistics */
+.our-statis{
+margin-top: -10px;
+}
+.our-statis .statis{
+    background-color: #303030;
+    color: #fff;
+    margin: 0px;
+    height: 500px;
+    width: 100%;
+}
+
+.our-statis .statis .text h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.our-statis .statis .text p{
+
+    text-align: center;
+    line-height: 1.5;
+    margin: 40px 60px 20px 60px;
+    font-size: 20px;
+}
+
+.our-statis .statis .text .community h2{
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 60px 130px 0;
+}
+.our-statis .statis .text .community-text p{
+    text-align: left;
+    display: inline-block;
+    padding: 0 71px;
+    font-weight: bold;
+    position: relative;
+}
+
+.our-statis .statis .text .community-text ul{
+    list-style: none;
+    display: inline;
+    float: left;
+}
+.our-statis .statis .text .community-text ul li{
+    float: left;
+    padding: 0px 124px;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+/* End Our Statistics */
+
+/* Start Herbert Simon */
+
+.herbert .simon{
+    background-image: linear-gradient(rgb(255 90 0 / 52%),rgb(0 0 0 / 50%)),url(../image/07.png);
+    background-size: cover;
+    height: 734px;
+    color: #fff
+}
+.herbert .simon p{
+   
+    text-align: center;
+    line-height: 1.5;
+    padding: 145px 340px 20px 340px;
+    font-size: 20px;
+    margin: -1px;
+
+}
+
+.herbert .simon h2{
+    font-size: 50px;
+    padding: 60px 34%;
+    font-weight: bold;  
+}
+/* End Herbert Simon */
+
+/* Start Subscribe */
+
+.subscribe .text{
+    background-color: #e8631c;
+    color: #fff;
+    margin: 0;
+    height: 400px;
+    
+}
+
+
+.subscribe .text .text-info h2{
+    text-align: center;
+    margin: -1px;
+    padding: 6% 0 0 0;
+    font-weight: bold;
+    font-size: 75px;
+}
+.subscribe .text .text-info h2:hover{color: #303030;}
+
+.subscribe .text .text-info p{
+    text-align: center;
+    line-height: 1.7;
+    padding: 0px 17%;
+    font-size: 25px;
+}
+
+.subscribe .text .email input{
+    color: #FFF;
+    padding: 15px 15px;
+    border: 0;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.subscribe .text .email button{
+    background-color: #303030;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    border: 0;
+    margin: 0 0 0 -10px;
+}
+/* End Subscribe */
+
+/* Start Contact Me */
+
+.contact-me .contact{
+    background-color: #303030;
+    color: #fff;
+    margin: 0;
+    height: 330px;
+}
+
+.contact-me .contact .mucis{
+    float: left;
+    display: inline;
+    width: 42%;
+
+}
+.contact-me .contact .mucis h2{
+    float: left;
+    font-size: 30px;
+    margin: -1px;
+    font-weight: bold;
+    padding: 50px 0px 0px 65px;
+}
+
+.contact-me .contact .mucis h2:hover{color: #e8631c;}
+
+.contact-me .contact .mucis p{
+    float: left;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 30px 65px 30px 63px;
+
+}
+
+.contact-me .contact .mucis .icon{
+    width: 50%;
+    margin-left: 60px;
+}
+
+.contact-me .contact .mucis .icon ul{
+    list-style: none;
+    display: inline;
+    margin: 0;
+}
+.contact-me .contact .mucis .icon ul li {
+    float: left;
+    padding: 0px 15px 0px 0px
+}
+
+.contact-me .contact .info {
+    display: inline-block;
+    float: right;
+
+}
+
+
+.contact-me .contact .info h2{
+    padding: 0 0 0 40px;
+    margin-top: 55px;
+}
+
+.contact-me .contact .info ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+
+
+.contact-me .contact .info ul li{
+    padding: 15px 45px 0 0;
+}
+.contact-me .contact .info ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-me .contact .info ul li a:hover{
+    color: #e8631c;
+}
+
+/* End Contact Me */
